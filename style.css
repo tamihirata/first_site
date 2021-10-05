@@ -1,0 +1,90 @@
+/*Conteúdo de página*/
+
+body {
+	background-image: url('bg.jpg');
+	font-family: garamond;
+	color: #4e4e4e;
+	max-width: 900px;
+	margin: auto;
+}
+
+.avatar {
+	border: 3px solid #DC3388;
+	border-radius: 50%;
+	width: 150px;
+	margin-top: -300px;
+	margin-left: 15px;
+}
+
+#title {
+	color: #DC3388;
+	text-transform: capitalize;
+	font-size: 72px;
+	padding-top: 15px;
+	margin-left: 215px;
+} 
+
+.subtitle {
+	color: #4e4e4e;
+	text-transform: capitalize;
+	margin-top: -50px;
+	margin-left: 230px;
+	margin-bottom: 100px;
+}
+
+/*Posts*/
+
+a {
+	color: #DC3388;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #869025;
+}
+
+.post_title {
+	color: #869025;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-style: bold;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.post {
+	background: #E9F2F7;
+	padding: 15px;
+	border: 2px dashed #afc33d;
+	border-radius: 5px;
+	text-align: justify;
+	margin: 20px;
+	margin-bottom: 10px;
+}
+
+.post_content {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.post_image {
+	display:  block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	max-width: 100%;
+}
+
+/*Listas*/
+
+.contatos {
+	list-style-type: none;
+	padding-left: 25px;
+}
+
+.contatos li a {
+	font-family: courier new;
+	font-size: 15px;
+}
